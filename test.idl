@@ -1,0 +1,10 @@
+typedef char T_Char;
+typedef sequence <T_Char, 1000> T_Payload;
+
+// \brief Log message to for decentralised logging topic
+struct I_Kit_Logging
+{
+  T_Payload A_payload;
+};
+
+
